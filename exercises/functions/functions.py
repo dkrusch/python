@@ -28,11 +28,24 @@ def hide(kid):
 #     hide(kid)
 
 for i in range(1, 101):
-    if (((i % 5) == 0) and ((i % 7) == 0)):
+    if ((i % 5) == 0) and ((i % 7) == 0):
         print(i, "chickenmonkey")
     elif ((i % 5) == 0):
         print(i, "chicken")
     elif((i % 7) == 0):
         print(i, "monkey")
+    else:
+        print(i)
+
+for i in range(1, 101):
+    the_string = ""
+
+    if i % 5 == 0:
+        the_string = f"{the_string}Chicken"
+    if i % 7 == 0:
+        the_string = f"{the_string}Monkey"
+
+    if the_string is not "":
+        print(the_string)
     else:
         print(i)

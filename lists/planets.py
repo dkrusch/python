@@ -21,7 +21,7 @@ spacecraft = [
 ]
 
 for planet in planet_list:
+    print(planet)
     for craft in spacecraft:
-        print(planet)
         if (craft[1] == planet):
             print(craft[0])

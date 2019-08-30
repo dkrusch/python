@@ -37,3 +37,17 @@ idioms = {
 
 for name, sentence in idioms.items():
     print(f"{name}: {' '.join(sentence)}.")
+
+my_family = {
+    "sister": {
+        "name": "Krista",
+        "age": 42
+    },
+    "mother": {
+        "name": "Cathie",
+        "age": 70
+    }
+}
+
+for family_member, attribute in my_family.items():
+    print(f"{attribute['name']} is my {family_member} and is {attribute['age']} years old.")
