@@ -41,7 +41,7 @@ class Crawling(Moving):
         self.legs = 0
 
     def run(self):
-        print("The animal digs")
+        print("The animal crawls")
 
 class Slithering(Moving):
 
@@ -50,4 +50,13 @@ class Slithering(Moving):
         self.legs = 0
 
     def run(self):
-        print("The animal digs")
+        print(f"The animal slithers")
+
+class Flying(Moving):
+
+    def __init__(self):
+        self.crawl_speed = 0
+        self.legs = 0
+
+    def run(self):
+        print(f"The animal flys")
