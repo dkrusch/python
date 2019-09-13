@@ -11,7 +11,7 @@ class Rose(Flower):
 
     def __init__(self, pedal_color, num_of_pedals, stem_length, organically_grown, pesticides_used=11):
         super().__init__(pedal_color, num_of_pedals, stem_length, organically_grown)
-        self.pesticides_used = pesticides_used
+        self.pesticides_usedped = pesticides_used
 
 class Daisy(Flower):
 
